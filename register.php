@@ -52,7 +52,7 @@
 		$password_hash = password_hash($password1, PASSWORD_DEFAULT);
 		
 		//Bot or not? Oto jest pytanie
-		$sekret = "6LcO6qIaAAAAAFRYsVVyQ4bCeONCIP59Ha-jyjPc";
+		$sekret = "YOUR_SECRET_KEY";
 		
 		$sprawdz = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$sekret.'&response='.$_POST['g-recaptcha-response']);
 		
