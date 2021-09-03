@@ -1,0 +1,178 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/webb-dark.png");
+	font-size: 20px;
+}
+
+#container
+{
+	background-color: white;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+input[type=text],
+input[type=password],
+input[type=email]
+{
+	width: 250px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 0 5px 5px 0;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+
+input::-webkit-input-placeholder
+{
+	color: #999;
+}
+
+input:focus::-webkit-input-placeholder
+{
+	color: #428C42;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+	color: #999;
+}
+
+input:focus:-moz-placeholder
+{
+	color: #428C42;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+	color: #999;
+}
+
+input:focus::-moz-placeholder
+{
+	color: #428C42;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+	color: #999;
+}
+
+input:focus:-ms-input-placeholder
+{
+	color: #428C42;
+}
+
+.text-field
+{
+	width: 35px;
+	background-color: #b3b3b3;
+	color: #666;
+	height: 47px;
+	border: 2px solid #ddd;
+	border-radius: 5px 0 0 5px;
+	font-size: 20px;
+	box-sizing: border-box;
+	display: block;
+	outline: none;
+	margin-top: 10px;
+}
+
+.kafelek
+{
+	vertical-align: middle !important;
+	height: 40px;
+	line-height: 40px;
+}
+
+.styled 
+{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 1rem;
+    text-align: center;
+	cursor: pointer;
+	align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover 
+{
+    background-color: rgba(255, 0, 0, 1);
+	cursor: pointer;
+}
+
+.styled:active 
+{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.error
+{
+	color:red;
+	margin-top: 5px;
+	font-size: 14px;
+}
